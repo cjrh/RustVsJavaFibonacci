@@ -1,5 +1,6 @@
 use std::env::args;
-use std::{collections::HashMap, time::Instant};
+use std::time::Instant;
+use hashbrown::HashMap;
 
 static mut MEMO: Option<HashMap<u64, u64>> = None;
 
